@@ -1,4 +1,4 @@
-# RUNNING `docker` WITHOUT USING `sudo`
+# RUNNING `docker` WITHOUT USING `sudo` on Ubuntu
 
 The Docker daemon binds to a Unix socket, not a TCP port. By default it's the root user that owns the Unix socket, and other users can only access it using sudo. The Docker daemon always runs as the root user.
 
